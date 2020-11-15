@@ -1,0 +1,55 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub// 
+		
+		//direction three of coding steps//
+		
+		double itemprice = 1.99;
+	
+		int moneyinwallet = 10;
+		
+		int friends = 1;
+		
+		int age = 25;
+		
+		String firstname = "Joseph";
+		
+		String lastname = "Ludwig";
+		
+		char middleinitial = 'M';
+		
+		System.out.println(itemprice);
+		
+		System.out.println(moneyinwallet);
+		
+		System.out.println(friends);
+		
+		System.out.println(age);
+		
+		System.out.println(firstname);
+		
+		System.out.println(lastname);
+		
+		System.out.println(middleinitial);
+		
+		double newamount = moneyinwallet - itemprice;
+		
+		System.out.println(newamount);
+		
+		int newAge = age + 1; 
+		
+		int newerFriends = friends + 1; 
+		
+		int friendseachYear = newAge + newerFriends;
+		
+		System.out.println(friendseachYear);
+		
+		String fullName = firstname + middleinitial + lastname;
+		
+		System.out.println(fullName);
+		
+	}
+
+}
